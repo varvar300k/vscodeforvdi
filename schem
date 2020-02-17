@@ -1,0 +1,53 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Body>
+<QueryCalendarItemsForDates xmlns="urn:WFMCalendarService810" xmlns:ns2="urn:WFMConfigService810">
+    <accessLevel>1</accessLevel>
+    <agentFilter>
+        <ns2:wmBUIdNSizeIs>0</ns2:wmBUIdNSizeIs>
+        <ns2:wmSiteIdNSizeIs>0</ns2:wmSiteIdNSizeIs>
+        <ns2:wmTeamIdNSizeIs>0</ns2:wmTeamIdNSizeIs>
+        <ns2:gswAgentIdNSizeIs>0</ns2:gswAgentIdNSizeIs>
+        <ns2:gswAgentId>39799</ns2:gswAgentId>
+        <ns2:gswEmployeeIdNSizeIs>0</ns2:gswEmployeeIdNSizeIs>
+        <ns2:wmContractIdNSizeIs>0</ns2:wmContractIdNSizeIs>
+        <ns2:wmRotatingSchIdNSizeIs>0</ns2:wmRotatingSchIdNSizeIs>
+        <ns2:wmStartDate>0.0</ns2:wmStartDate>
+        <ns2:wmEndDate>0.0</ns2:wmEndDate>
+        <ns2:enableSecondarySkills>false</ns2:enableSecondarySkills>
+        <ns2:gswFirstName xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <ns2:gswLastName xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <ns2:cfgAgentSnapshotID xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </agentFilter>
+    <timezoneID>0</timezoneID>
+    <dates>43898.0</dates>
+    <dates>43899.0</dates>
+    <dates>43900.0</dates>
+    <dates>43901.0</dates>
+    <dates>43902.0</dates>
+    <dates>43903.0</dates>
+    <dates>43904.0</dates>
+    <dates>43905.0</dates>
+    <schScenarioID>0</schScenarioID>
+    <filter>
+        <itemsArraySize>0</itemsArraySize>
+        <items>0</items>
+        <items>1</items>
+        <items>2</items>
+        <items>3</items>
+        <items>4</items>
+        <items>5</items>
+        <items>6</items>
+        <items>7</items>
+        <exceptionsArraySize>0</exceptionsArraySize>
+        <timeOffArraySize>0</timeOffArraySize>
+        <aStatusArraySize>0</aStatusArraySize>
+        <sStatusArraySize>0</sStatusArraySize>
+    </filter>
+    <sort>
+        <sortMode>52937</sortMode>
+        <sortOrder>1</sortOrder>
+    </sort>
+    <request>0</request>
+</QueryCalendarItemsForDates>
+</soap:Body>
+</soap:Envelope>

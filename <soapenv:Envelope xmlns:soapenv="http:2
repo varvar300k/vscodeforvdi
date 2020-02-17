@@ -1,0 +1,113 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:WFMCalendarService851" xmlns:urn1="urn:WFMConfigService851">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:QueryCalendarItemsForDates>
+         <urn:accessLevel>1</urn:accessLevel>
+         <urn:agentFilter>
+            <urn1:wmBUIdNSizeIs>0</urn1:wmBUIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmBUId>null</urn1:wmBUId>
+            <urn1:wmSiteIdNSizeIs>0</urn1:wmSiteIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmSiteId>null</urn1:wmSiteId>
+            <urn1:wmTeamIdNSizeIs>0</urn1:wmTeamIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmTeamId>null</urn1:wmTeamId>
+            <urn1:gswAgentIdNSizeIs>0</urn1:gswAgentIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:gswAgentId>39799</urn1:gswAgentId>
+            <urn1:gswEmployeeIdNSizeIs>0</urn1:gswEmployeeIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:gswEmployeeId>null</urn1:gswEmployeeId>
+            <urn1:wmContractIdNSizeIs>0</urn1:wmContractIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmContractId>2647</urn1:wmContractId>
+            <urn1:wmRotatingSchIdNSizeIs>0</urn1:wmRotatingSchIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmRotatingSchId>null</urn1:wmRotatingSchId>
+            <urn1:wmAccrualRuleIdNSizeIs>0</urn1:wmAccrualRuleIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmAccrualRuleId>null</urn1:wmAccrualRuleId>
+            <urn1:wmStartDate>43891.0</urn1:wmStartDate>
+            <urn1:wmEndDate>43898.0</urn1:wmEndDate>
+            <urn1:enableSecondarySkills>false</urn1:enableSecondarySkills>
+            <urn1:gswFirstName>"Mobile"</urn1:gswFirstName>
+            <urn1:gswLastName>"App"</urn1:gswLastName>
+            <urn1:cfgAgentSnapshotID>"string"</urn1:cfgAgentSnapshotID>
+         </urn:agentFilter>
+         <urn:activityFilter>
+            <urn1:wmBUIdNSizeIs>0</urn1:wmBUIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmBUId>null</urn1:wmBUId>
+            <urn1:wmSiteIdNSizeIs>0</urn1:wmSiteIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmSiteId>null</urn1:wmSiteId>
+            <urn1:wmActivityIdNSizeIs>0</urn1:wmActivityIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmActivityId>null</urn1:wmActivityId>
+            <urn1:wmVirtualActivityIdNSizeIs>0</urn1:wmVirtualActivityIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmVirtualActivityId>null</urn1:wmVirtualActivityId>
+            <urn1:wmActivitySetIdNSizeIs>0</urn1:wmActivitySetIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmActivitySetId>null</urn1:wmActivitySetId>
+            <urn1:wmTypeNSizeIs>0</urn1:wmTypeNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmType>null</urn1:wmType>
+            <urn1:cfgActivitySnapshotID>"string"</urn1:cfgActivitySnapshotID>
+         </urn:activityFilter>
+         <urn:agentDetails>
+            <urn1:infoType>1</urn1:infoType>
+            <urn1:secondaryActivities>true</urn1:secondaryActivities>
+            <urn1:provideTeamInfo>false</urn1:provideTeamInfo>
+            <urn1:provideContractInfo>true</urn1:provideContractInfo>
+            <urn1:provideAvailabilityInfo>false</urn1:provideAvailabilityInfo>
+            <urn1:provideActivityInfo>true</urn1:provideActivityInfo>
+            <urn1:provideSiteInfo>false</urn1:provideSiteInfo>
+            <urn1:provideBUInfo>false</urn1:provideBUInfo>
+            <urn1:provideTimezoneInfo>false</urn1:provideTimezoneInfo>
+            <urn1:provideCarpoolInfo>false</urn1:provideCarpoolInfo>
+            <urn1:provideSkillInfo>false</urn1:provideSkillInfo>
+            <urn1:provideAccrualRuleInfo>false</urn1:provideAccrualRuleInfo>
+            <urn1:provideTimeOffTypeInfo>false</urn1:provideTimeOffTypeInfo>
+         </urn:agentDetails>
+         <urn:timezoneID>0</urn:timezoneID>
+         <!--Zero or more repetitions:-->
+         <urn:dates>
+            <numbers>
+                <value>43891.0</value>
+                <value>43892.0</value>
+                <value>43893.0</value>
+                <value>43894.0</value>
+                <value>43895.0</value>
+                <value>43896.0</value>
+                <value>43897.0</value>
+                <value>43898.0</value>
+            </numbers>
+         </urn:dates>
+         <urn:schScenarioID>0</urn:schScenarioID>
+         <urn:filter>
+            <urn:itemsArraySize>0</urn:itemsArraySize>
+            <!--Zero or more repetitions:-->
+            <urn:items>null</urn:items>
+            <urn:exceptionsArraySize>0</urn:exceptionsArraySize>
+            <!--Zero or more repetitions:-->
+            <urn:exceptions>null</urn:exceptions>
+            <urn:timeOffArraySize>0</urn:timeOffArraySize>
+            <!--Zero or more repetitions:-->
+            <urn:timeOffs>null</urn:timeOffs>
+            <urn:aStatusArraySize>0</urn:aStatusArraySize>
+            <!--Zero or more repetitions:-->
+            <urn:actualStatuses>null</urn:actualStatuses>
+            <urn:sStatusArraySize>0</urn:sStatusArraySize>
+            <!--Zero or more repetitions:-->
+            <urn:savedStatuses>null</urn:savedStatuses>
+         </urn:filter>
+         <urn:sort>
+            <urn:sortMode>1</urn:sortMode>
+            <urn:sortOrder>1</urn:sortOrder>
+         </urn:sort>
+         <urn:request>0</urn:request>
+      </urn:QueryCalendarItemsForDates>
+   </soapenv:Body>
+</soapenv:Envelope>

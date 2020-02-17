@@ -1,0 +1,96 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:WFMCalendarService810" xmlns:urn1="urn:WFMConfigService810">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:QueryCalendarItemsForDates>
+         <urn:accessLevel>?</urn:accessLevel>
+         <urn:agentFilter>
+            <urn1:wmBUIdNSizeIs>?</urn1:wmBUIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmBUId>?</urn1:wmBUId>
+            <urn1:wmSiteIdNSizeIs>?</urn1:wmSiteIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmSiteId>?</urn1:wmSiteId>
+            <urn1:wmTeamIdNSizeIs>?</urn1:wmTeamIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmTeamId>?</urn1:wmTeamId>
+            <urn1:gswAgentIdNSizeIs>?</urn1:gswAgentIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:gswAgentId>?</urn1:gswAgentId>
+            <urn1:gswEmployeeIdNSizeIs>?</urn1:gswEmployeeIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:gswEmployeeId>?</urn1:gswEmployeeId>
+            <urn1:wmContractIdNSizeIs>?</urn1:wmContractIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmContractId>?</urn1:wmContractId>
+            <urn1:wmRotatingSchIdNSizeIs>?</urn1:wmRotatingSchIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmRotatingSchId>?</urn1:wmRotatingSchId>
+            <urn1:wmStartDate>?</urn1:wmStartDate>
+            <urn1:wmEndDate>?</urn1:wmEndDate>
+            <urn1:enableSecondarySkills>?</urn1:enableSecondarySkills>
+            <urn1:gswFirstName>?</urn1:gswFirstName>
+            <urn1:gswLastName>?</urn1:gswLastName>
+            <urn1:cfgAgentSnapshotID>?</urn1:cfgAgentSnapshotID>
+         </urn:agentFilter>
+         <urn:activityFilter>
+            <urn1:wmBUIdNSizeIs>?</urn1:wmBUIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmBUId>?</urn1:wmBUId>
+            <urn1:wmSiteIdNSizeIs>?</urn1:wmSiteIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmSiteId>?</urn1:wmSiteId>
+            <urn1:wmActivityIdNSizeIs>?</urn1:wmActivityIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmActivityId>?</urn1:wmActivityId>
+            <urn1:wmVirtualActivityIdNSizeIs>?</urn1:wmVirtualActivityIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmVirtualActivityId>?</urn1:wmVirtualActivityId>
+            <urn1:wmActivitySetIdNSizeIs>?</urn1:wmActivitySetIdNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmActivitySetId>?</urn1:wmActivitySetId>
+            <urn1:wmTypeNSizeIs>?</urn1:wmTypeNSizeIs>
+            <!--Zero or more repetitions:-->
+            <urn1:wmType>?</urn1:wmType>
+            <urn1:cfgActivitySnapshotID>?</urn1:cfgActivitySnapshotID>
+         </urn:activityFilter>
+         <urn:agentDetails>
+            <urn1:infoType>?</urn1:infoType>
+            <urn1:secondaryActivities>?</urn1:secondaryActivities>
+            <urn1:provideTeamInfo>?</urn1:provideTeamInfo>
+            <urn1:provideContractInfo>?</urn1:provideContractInfo>
+            <urn1:provideAvailabilityInfo>?</urn1:provideAvailabilityInfo>
+            <urn1:provideActivityInfo>?</urn1:provideActivityInfo>
+            <urn1:provideSiteInfo>?</urn1:provideSiteInfo>
+            <urn1:provideBUInfo>?</urn1:provideBUInfo>
+            <urn1:provideTimezoneInfo>?</urn1:provideTimezoneInfo>
+            <urn1:provideCarpoolInfo>?</urn1:provideCarpoolInfo>
+         </urn:agentDetails>
+         <urn:timezoneID>?</urn:timezoneID>
+         <!--Zero or more repetitions:-->
+         <urn:dates>?</urn:dates>
+         <urn:schScenarioID>?</urn:schScenarioID>
+         <urn:filter>
+            <urn:itemsArraySize>?</urn:itemsArraySize>
+            <!--Zero or more repetitions:-->
+            <urn:items>?</urn:items>
+            <urn:exceptionsArraySize>?</urn:exceptionsArraySize>
+            <!--Zero or more repetitions:-->
+            <urn:exceptions>?</urn:exceptions>
+            <urn:timeOffArraySize>?</urn:timeOffArraySize>
+            <!--Zero or more repetitions:-->
+            <urn:timeOffs>?</urn:timeOffs>
+            <urn:aStatusArraySize>?</urn:aStatusArraySize>
+            <!--Zero or more repetitions:-->
+            <urn:actualStatuses>?</urn:actualStatuses>
+            <urn:sStatusArraySize>?</urn:sStatusArraySize>
+            <!--Zero or more repetitions:-->
+            <urn:savedStatuses>?</urn:savedStatuses>
+         </urn:filter>
+         <urn:sort>
+            <urn:sortMode>?</urn:sortMode>
+            <urn:sortOrder>?</urn:sortOrder>
+         </urn:sort>
+         <urn:request>?</urn:request>
+      </urn:QueryCalendarItemsForDates>
+   </soapenv:Body>
+</soapenv:Envelope>

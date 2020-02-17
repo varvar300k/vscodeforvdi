@@ -1,0 +1,90 @@
+https://code.google.com/archive/p/gwt-payload-deserializer/wikis/GwtPayloadDefinition.wiki
+7| -GWT SERIALIZATION_STREAM_VERSION
+0| -Flags
+14| -number of string table elements - starts directly bellow this line
+1. https://portal.homecredit.ru/wfm/agent/| -path - this is the first string table element
+2. AC8668A72D49B7D64BA2E24A8A8CB95D| -whitelist hash
+3. com.genesyslab.wfm8.API.shared.service.WFMCalendarService810| -service interface FQN
+4. queryCalendarItemsForDates| -method name
+5. I| -int
+6. com.genesyslab.wfm8.API.shared.domain.config810.CfgAgentFilter/2198423650| -type serialization signature
+7. com.genesyslab.wfm8.API.shared.domain.config810.CfgActivityFilter/1564599371| -type serialization signature
+8. com.genesyslab.wfm8.API.shared.domain.config810.CfgAgentDetails/4222762588| -type serialization signature
+9. java.util.List| -list
+10. com.genesyslab.wfm8.API.shared.domain.calendar810.CalFilter/4157950963| -type serialization signature
+11. com.genesyslab.wfm8.API.shared.domain.calendar810.CalSort/3749997273|  -type serialization signature
+12. java.util.ArrayList/4159755760| -type serialization signature
+13. java.lang.Integer/3438268394| -type serialization signature
+14. java.lang.Double/858496421| -type serialization signature
+
+5-int
+6-CfgAgentFilter
+7-CfgActivityFilter
+8-CfgAgentDetails
+9-list
+10-CalFilter
+11-CalSort
+12-ArrayList
+13-integer
+14-double
+
+1|2|3|4| -service url endpoint, hash, interface and method definition - positions in str table
+10| -number of method parameters
+5| -1st method parameter type - position in str table (accessLevel)
+6| -2nd (agentFilter)
+7| -3d (activityFilter)
+8| -4th (agentDetails)
+5| -5th (timezoneID)
+9| -6th (dates)
+5| -7th (schScenarioID)
+10| -8th (filter)
+11| -9th (sort)
+5| -10th method parameter type - position in str table (request)
+1| accessLevel
+6| agentFilter
+    0| wmBUIdNSizeIs
+    0| wmSiteIdNSizeIs
+    12|1|13(int32)|39799| agentId
+0|0|0|0|0|0|0|0|0|
+0|0|0|0|0|0|0|0|0|0| agentDetails
+0|
+12|
+    8| dates
+        14|43891|
+        14|43892|
+        14|43893|
+        14|43894|
+        14|43895|
+        14|43896|
+        14|43897|
+        14|43898|
+0| schScenarioID
+10| - filter
+    0| itemsArraySize
+    0| items
+    0| exceptionsArraySize
+    0| exceptions
+    12|
+        8| actualStatuses
+            13|0|
+            13|1|
+            13|2|
+            13|3|
+            13|4|
+            13|5|
+            13|6|
+            13|7|
+    0| timeOffs
+    0| aStatusArraySize
+    0| actualStatuses
+    0| sStatusArraySize
+    0| savedStatuses
+11| -sort
+    52937| sortMode
+    1| sortOrder
+0| request
+
+
+//OK[
+5,'A',43873.319560185184,0.34375,304,0,0.34375,720,0.875,720,8502,0,9,4547419,4,0,0,0.875,765,43896.0,0,39799,7,2,0,0,3,6,'A',43873.41142361111,0.0,304,0,0.0,0,0.0,0,0,0,12,4547790,2,1,0,0.0,0,43895.0,11,39799,7,2,0,0,3,6,'A',43873.344675925924,0.34375,304,0,0.34375,720,0.875,720,8502,0,9,4547562,4,0,0,0.875,765,43894.0,10,39799,7,2,0,0,3,6,'A',43873.31945601852,0.34375,304,0,0.34375,720,0.875,720,8502,0,9,4547417,4,0,0,0.875,765,43893.0,0,39799,7,2,0,0,3,6,'A',43872.34208333334,0.34375,304,0,0.34375,720,0.875,720,8502,0,9,4545874,4,0,0,0.875,765,43892.0,8,39799,7,2,0,0,3,6,5,3,5,43896.0,1,5,43895.0,1,5,43894.0,1,5,43893.0,1,5,43892.0,1,5,5,3,0,0,3,'YYUZ7',0,0,3,0,0,3,0,0,3,1,39799,4,1,3,0,0,3,0,0,3,0,0,3,0,0,3,0,0,3,0,0,3,2,1,["com.genesyslab.wfm8.API.shared.domain.calendar810.CalData/2898159537","com.genesyslab.wfm8.API.shared.domain.config810.CfgAgentHolder/1036473039","java.util.ArrayList/4159755760","java.lang.Integer/3438268394","com.genesyslab.wfm8.API.shared.domain.calendar810.CalDataIndicator/1756386164","com.genesyslab.wfm8.API.shared.domain.calendar810.CalItemInformation/1550404323","","test 1","12 Обнинск смена Калуга","тестовая сессия","test day off","Выходной"],0,7]
+

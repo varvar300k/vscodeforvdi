@@ -1,0 +1,288 @@
+{
+    "return": {
+        "objectIDArrayNSizeIs": 0,
+        "objectArrayNSizeIs": 1,
+        "objectArray": [
+            {
+                "gswAgentId": 39799,
+                "wmBUId": 3,
+                "wmSiteId": 304,
+                "wmTeamId": 0,
+                "wmContractId": 2647,
+                "gswEmployeeId": "MobileApp",
+                "gswFirstName": "Mobile",
+                "gswLastName": "App",
+                "wmStartDate": 43788.0,
+                "wmEndDate": 0.0,
+                "wmComments": " ",
+                "wmHourlyWage": 0,
+                "wmSeniority": 0,
+                "wmAgentSkillsNSizeIs": 3,
+                "wmAgentSkills": [
+                    {
+                        "gswSkillId": 146,
+                        "gswSkillLevel": 0,
+                        "wmSkillOn": 1
+                    },
+                    {
+                        "gswSkillId": 353,
+                        "gswSkillLevel": 0,
+                        "wmSkillOn": 1
+                    },
+                    {
+                        "gswSkillId": 682,
+                        "gswSkillLevel": 0,
+                        "wmSkillOn": 1
+                    }
+                ],
+                "wmAgentActivitiesNSizeIs": 2,
+                "wmAgentActivities": [
+                    {
+                        "wmActivityId": 961,
+                        "wmType": 1,
+                        "wmEffectiveDate": 43872.0
+                    },
+                    {
+                        "wmActivityId": 1241,
+                        "wmType": 1,
+                        "wmEffectiveDate": 43872.0
+                    }
+                ],
+                "wmActivitiesNSizeIs": 2,
+                "wmActivities": [
+                    961,
+                    1241
+                ],
+                "gswTenantId": 101,
+                "wmCarpoolId": 0,
+                "wmAgentContractsNSizeIs": 1,
+                "wmAgentContracts": [
+                    {
+                        "wmContractId": 2647,
+                        "wmEffectiveDate": 43872.0
+                    }
+                ],
+                "wmAgentRotatingSchNSizeIs": 0,
+                "wmAgentTimeOffRuleNSizeIs": 0,
+                "wmAgentTimeOffBonusNSizeIs": 0,
+                "timestamp": 409028219
+            }
+        ],
+        "objectShortArrayNSizeIs": 0,
+        "teamInfoNSizeIs": 0,
+        "contractInfoNSizeIs": 0,
+        "availabilityInfoNSizeIs": 0,
+        "activityInfoNSizeIs": 0,
+        "siteInfoNSizeIs": 0,
+        "buInfoNSizeIs": 0,
+        "timezoneInfoNSizeIs": 0,
+        "carpoolInfoNSizeIs": 0,
+        "skillInfoNSizeIs": 0,
+        "accrualRuleInfoNSizeIs": 0,
+        "timeOffTypeInfoNSizeIs": 0,
+        "timestamp": 409028219
+    }
+}
+-------------
+{
+    "return": {
+        "objectIDArrayNSizeIs": 0,
+        "objectArrayNSizeIs": 56,
+        "objectArray": [
+            {
+                "wmContractId": 2647,
+                "wmBUId": 3,
+                "wmSiteIdNSizeIs": 1,
+                "wmSiteId": [
+                    304
+                ],
+
+                "wmName": "OBN 12ч 8:15",
+                "wmIcon": 1,
+
+                "wmDailyMinutesStd": 720,
+                "wmDailyMinutesMin": 420,
+                "wmDailyMinutesMax": 720,
+
+                "wmWeeklyMinutesStd": 2160,
+                "wmWeeklyMinutesMin": 2100,
+                "wmWeeklyMinutesMax": 2880,
+
+                "wmMonthlyMinutesStd": 10080,
+                "wmMonthlyMinutesMin": 10080,
+                "wmMonthlyMinutesMax": 10080,
+
+                "wmMaxBetweenDaysoff": 3,
+
+                "wmWeeklyDaysMin": 3,
+                "wmWeeklyDaysMax": 4,
+
+                "wmSunOffEnabled": false,
+                "wmSunOffMin": 0,
+                "wmSunOffMax": 0,
+                
+                "wmSatOffEnabled": false,
+                "wmSatOffMin": 0,
+                "wmSatOffMax": 0,
+
+                "wmWeekendOffEnabled": false,
+                "wmWeekendOffMin": 0,
+                "wmWeekendOffMax": 0,
+                
+                "wmDailyMinutesOver": 0,
+                "wmWeeklyMinutesOver": 0,
+                "wmMonthlyMinutesOver": 0,
+                "wmCompensationOver": 100.0,
+                
+                "wmDailyMinutesOver2": 0,
+                "wmWeeklyMinutesOver2": 0,
+                "wmMonthlyMinutesOver2": 0,
+                "wmCompensationOver2": 100.0,
+                
+                "wmOverEnabled": false,
+                "wmOver2Enabled": false,
+                
+                "wmMinConsecTimeoff": 0,
+                
+                "wmDayoffMin": -1,
+                "wmDayoffMax": -1,
+                "wmDayoffEx": 0,
+                
+                "wmSynchThreshold": 0,
+                "wmSynchWeeks": 0,
+                
+                "wmMaxConsecWorkWeekends": 0,
+                
+                "wmSynch": [
+                    true,
+                    true,
+                    true,
+                    true,
+                    true,
+                    true,
+                    true
+                ],
+                "wmWeekendFirstDay": 7,
+                "wmSynchType": 1,
+                
+                "wmAvailabilities": [
+                    {
+                        "wmStartTime": 0.34375,
+                        "wmDuration": 780
+                    },
+                    {
+                        "wmStartTime": 0.34375,
+                        "wmDuration": 780
+                    },
+                    {
+                        "wmStartTime": 0.34375,
+                        "wmDuration": 780
+                    },
+                    {
+                        "wmStartTime": 0.34375,
+                        "wmDuration": 780
+                    },
+                    {
+                        "wmStartTime": 0.34375,
+                        "wmDuration": 780
+                    },
+                    {
+                        "wmStartTime": 0.34375,
+                        "wmDuration": 780
+                    },
+                    {
+                        "wmStartTime": 0.34375,
+                        "wmDuration": 780
+                    }
+                ],
+                
+                "wmContractMonthHours": [
+                    {
+                        "wmMinutesMin": 8160,
+                        "wmMinutesStd": 0,
+                        "wmMinutesMax": 8160
+                    },
+                    {
+                        "wmMinutesMin": 9540,
+                        "wmMinutesStd": 0,
+                        "wmMinutesMax": 9540
+                    },
+                    {
+                        "wmMinutesMin": 9540,
+                        "wmMinutesStd": 0,
+                        "wmMinutesMax": 9540
+                    },
+                    {
+                        "wmMinutesMin": 10500,
+                        "wmMinutesStd": 0,
+                        "wmMinutesMax": 10500
+                    },
+                    {
+                        "wmMinutesMin": 8580,
+                        "wmMinutesStd": 0,
+                        "wmMinutesMax": 8580
+                    },
+                    {
+                        "wmMinutesMin": 9060,
+                        "wmMinutesStd": 0,
+                        "wmMinutesMax": 9060
+                    },
+                    {
+                        "wmMinutesMin": 11040,
+                        "wmMinutesStd": 0,
+                        "wmMinutesMax": 11040
+                    },
+                    {
+                        "wmMinutesMin": 10560,
+                        "wmMinutesStd": 0,
+                        "wmMinutesMax": 10560
+                    },
+                    {
+                        "wmMinutesMin": 10080,
+                        "wmMinutesStd": 0,
+                        "wmMinutesMax": 10080
+                    },
+                    {
+                        "wmMinutesMin": 11040,
+                        "wmMinutesStd": 0,
+                        "wmMinutesMax": 11040
+                    },
+                    {
+                        "wmMinutesMin": 9600,
+                        "wmMinutesStd": 0,
+                        "wmMinutesMax": 9600
+                    },
+                    {
+                        "wmMinutesMin": 10500,
+                        "wmMinutesStd": 0,
+                        "wmMinutesMax": 10500
+                    }
+                ],
+                
+                "wmContractShiftsNSizeIs": 2,
+                "wmContractShifts": [
+                    {
+                        "wmContractId": 2647,
+                        "wmShiftId": 3303,
+                        "wmShiftType": 1
+                    },
+                    {
+                        "wmContractId": 2647,
+                        "wmShiftId": 8502,
+                        "wmShiftType": 1
+                    }
+                ],
+                
+                "wmMaxConsecWorkSundays": 0,
+                "wmMinTimeBetweenDays": 0,
+                "wmMinTimeBetweenStarts": 0,
+                "timestamp": 407211653
+            }
+        ],
+        "objectShortArrayNSizeIs": 0,
+        "shiftInfoNSizeIs": 0,
+        "siteInfoNSizeIs": 0,
+        "buInfoNSizeIs": 0,
+        "timestamp": 409018017
+    }
+}
